@@ -20,7 +20,7 @@ ATTRIBUTE my_attr {
     LABEL "My Attribute"
     MULTIVALUE yes
     MULTISEP "|"
-    DYNAMIC multipos
+    DYNAMIC geteachncharbysep
     DYNLIB  "/a/path/to/ucnkdynfn.so"
     FUNTYPE i
     ARG1 "0"
