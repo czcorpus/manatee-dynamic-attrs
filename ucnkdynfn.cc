@@ -25,7 +25,7 @@ ATTRIBUTE my_attr {
     FUNTYPE i
     ARG1 "0"
     FROMATTR ep_tag
-    TYPE index
+    DYNTYPE index
     TRANSQUERY no
 }
 
